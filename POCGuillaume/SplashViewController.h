@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SplashViewController.h
 //  POCGuillaume
 //
 //  Created by SQLI51107 on 18/12/2015.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SplashViewController : UIViewController
 
 @end
-
