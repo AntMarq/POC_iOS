@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387F5DE61C24070400B7EAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5DE51C24070400B7EAE5 /* main.m */; };
+		387F5DE91C24070400B7EAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5DE81C24070400B7EAE5 /* AppDelegate.m */; };
+		387F5DEC1C24070400B7EAE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5DEB1C24070400B7EAE5 /* ViewController.m */; };
+		387F5DEF1C24070400B7EAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387F5DED1C24070400B7EAE5 /* Main.storyboard */; };
+		387F5DF11C24070400B7EAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387F5DF01C24070400B7EAE5 /* Assets.xcassets */; };
+		387F5DF41C24070400B7EAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387F5DF21C24070400B7EAE5 /* LaunchScreen.storyboard */; };
+		387F5DFF1C24070400B7EAE5 /* POCGuillaumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5DFE1C24070400B7EAE5 /* POCGuillaumeTests.m */; };
+		387F5E0A1C24070400B7EAE5 /* POCGuillaumeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5E091C24070400B7EAE5 /* POCGuillaumeUITests.m */; };
+		387F5E0F1C24070400B7EAE5 /* POCGuillaume WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 387F5E0E1C24070400B7EAE5 /* POCGuillaume WatchKit App.app */; };
+		387F5E151C24070400B7EAE5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387F5E131C24070400B7EAE5 /* Interface.storyboard */; };
+		387F5E171C24070400B7EAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387F5E161C24070400B7EAE5 /* Assets.xcassets */; };
+		387F5E1E1C24070400B7EAE5 /* POCGuillaume WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 387F5E1D1C24070400B7EAE5 /* POCGuillaume WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		387F5E261C24070400B7EAE5 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5E251C24070400B7EAE5 /* InterfaceController.m */; };
+		387F5E291C24070400B7EAE5 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5E281C24070400B7EAE5 /* ExtensionDelegate.m */; };
+		387F5E2C1C24070400B7EAE5 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387F5E2B1C24070400B7EAE5 /* NotificationController.m */; };
+		387F5E2E1C24070400B7EAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387F5E2D1C24070400B7EAE5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387F5DFB1C24070400B7EAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387F5DD91C24070400B7EAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387F5DE01C24070400B7EAE5;
+			remoteInfo = POCGuillaume;
+		};
+		387F5E061C24070400B7EAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387F5DD91C24070400B7EAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387F5DE01C24070400B7EAE5;
+			remoteInfo = POCGuillaume;
+		};
+		387F5E101C24070400B7EAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387F5DD91C24070400B7EAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387F5E0D1C24070400B7EAE5;
+			remoteInfo = "POCGuillaume WatchKit App";
+		};
+		387F5E1F1C24070400B7EAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387F5DD91C24070400B7EAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387F5E1C1C24070400B7EAE5;
+			remoteInfo = "POCGuillaume WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		387F5E351C24070400B7EAE5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				387F5E1E1C24070400B7EAE5 /* POCGuillaume WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E391C24070400B7EAE5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				387F5E0F1C24070400B7EAE5 /* POCGuillaume WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		387F5DE11C24070400B7EAE5 /* POCGuillaume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCGuillaume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F5DE51C24070400B7EAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		387F5DE71C24070400B7EAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		387F5DE81C24070400B7EAE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		387F5DEA1C24070400B7EAE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		387F5DEB1C24070400B7EAE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		387F5DEE1C24070400B7EAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387F5DF01C24070400B7EAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387F5DF31C24070400B7EAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		387F5DF51C24070400B7EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387F5DFA1C24070400B7EAE5 /* POCGuillaumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCGuillaumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F5DFE1C24070400B7EAE5 /* POCGuillaumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCGuillaumeTests.m; sourceTree = "<group>"; };
+		387F5E001C24070400B7EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387F5E051C24070400B7EAE5 /* POCGuillaumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCGuillaumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F5E091C24070400B7EAE5 /* POCGuillaumeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCGuillaumeUITests.m; sourceTree = "<group>"; };
+		387F5E0B1C24070400B7EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387F5E0E1C24070400B7EAE5 /* POCGuillaume WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POCGuillaume WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F5E141C24070400B7EAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		387F5E161C24070400B7EAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387F5E181C24070400B7EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387F5E1D1C24070400B7EAE5 /* POCGuillaume WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "POCGuillaume WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387F5E231C24070400B7EAE5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		387F5E241C24070400B7EAE5 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		387F5E251C24070400B7EAE5 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		387F5E271C24070400B7EAE5 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		387F5E281C24070400B7EAE5 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		387F5E2A1C24070400B7EAE5 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		387F5E2B1C24070400B7EAE5 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		387F5E2D1C24070400B7EAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387F5E2F1C24070400B7EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387F5DDE1C24070400B7EAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5DF71C24070400B7EAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E021C24070400B7EAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E1A1C24070400B7EAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387F5DD81C24070400B7EAE5 = {
+			isa = PBXGroup;
+			children = (
+				387F5DE31C24070400B7EAE5 /* POCGuillaume */,
+				387F5DFD1C24070400B7EAE5 /* POCGuillaumeTests */,
+				387F5E081C24070400B7EAE5 /* POCGuillaumeUITests */,
+				387F5E121C24070400B7EAE5 /* POCGuillaume WatchKit App */,
+				387F5E211C24070400B7EAE5 /* POCGuillaume WatchKit Extension */,
+				387F5DE21C24070400B7EAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		387F5DE21C24070400B7EAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387F5DE11C24070400B7EAE5 /* POCGuillaume.app */,
+				387F5DFA1C24070400B7EAE5 /* POCGuillaumeTests.xctest */,
+				387F5E051C24070400B7EAE5 /* POCGuillaumeUITests.xctest */,
+				387F5E0E1C24070400B7EAE5 /* POCGuillaume WatchKit App.app */,
+				387F5E1D1C24070400B7EAE5 /* POCGuillaume WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387F5DE31C24070400B7EAE5 /* POCGuillaume */ = {
+			isa = PBXGroup;
+			children = (
+				387F5DE71C24070400B7EAE5 /* AppDelegate.h */,
+				387F5DE81C24070400B7EAE5 /* AppDelegate.m */,
+				387F5DEA1C24070400B7EAE5 /* ViewController.h */,
+				387F5DEB1C24070400B7EAE5 /* ViewController.m */,
+				387F5DED1C24070400B7EAE5 /* Main.storyboard */,
+				387F5DF01C24070400B7EAE5 /* Assets.xcassets */,
+				387F5DF21C24070400B7EAE5 /* LaunchScreen.storyboard */,
+				387F5DF51C24070400B7EAE5 /* Info.plist */,
+				387F5DE41C24070400B7EAE5 /* Supporting Files */,
+			);
+			path = POCGuillaume;
+			sourceTree = "<group>";
+		};
+		387F5DE41C24070400B7EAE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				387F5DE51C24070400B7EAE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		387F5DFD1C24070400B7EAE5 /* POCGuillaumeTests */ = {
+			isa = PBXGroup;
+			children = (
+				387F5DFE1C24070400B7EAE5 /* POCGuillaumeTests.m */,
+				387F5E001C24070400B7EAE5 /* Info.plist */,
+			);
+			path = POCGuillaumeTests;
+			sourceTree = "<group>";
+		};
+		387F5E081C24070400B7EAE5 /* POCGuillaumeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				387F5E091C24070400B7EAE5 /* POCGuillaumeUITests.m */,
+				387F5E0B1C24070400B7EAE5 /* Info.plist */,
+			);
+			path = POCGuillaumeUITests;
+			sourceTree = "<group>";
+		};
+		387F5E121C24070400B7EAE5 /* POCGuillaume WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				387F5E131C24070400B7EAE5 /* Interface.storyboard */,
+				387F5E161C24070400B7EAE5 /* Assets.xcassets */,
+				387F5E181C24070400B7EAE5 /* Info.plist */,
+			);
+			path = "POCGuillaume WatchKit App";
+			sourceTree = "<group>";
+		};
+		387F5E211C24070400B7EAE5 /* POCGuillaume WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				387F5E241C24070400B7EAE5 /* InterfaceController.h */,
+				387F5E251C24070400B7EAE5 /* InterfaceController.m */,
+				387F5E271C24070400B7EAE5 /* ExtensionDelegate.h */,
+				387F5E281C24070400B7EAE5 /* ExtensionDelegate.m */,
+				387F5E2A1C24070400B7EAE5 /* NotificationController.h */,
+				387F5E2B1C24070400B7EAE5 /* NotificationController.m */,
+				387F5E2D1C24070400B7EAE5 /* Assets.xcassets */,
+				387F5E2F1C24070400B7EAE5 /* Info.plist */,
+				387F5E221C24070400B7EAE5 /* Supporting Files */,
+			);
+			path = "POCGuillaume WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		387F5E221C24070400B7EAE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				387F5E231C24070400B7EAE5 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387F5DE01C24070400B7EAE5 /* POCGuillaume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F5E3A1C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaume" */;
+			buildPhases = (
+				387F5DDD1C24070400B7EAE5 /* Sources */,
+				387F5DDE1C24070400B7EAE5 /* Frameworks */,
+				387F5DDF1C24070400B7EAE5 /* Resources */,
+				387F5E391C24070400B7EAE5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387F5E111C24070400B7EAE5 /* PBXTargetDependency */,
+			);
+			name = POCGuillaume;
+			productName = POCGuillaume;
+			productReference = 387F5DE11C24070400B7EAE5 /* POCGuillaume.app */;
+			productType = "com.apple.product-type.application";
+		};
+		387F5DF91C24070400B7EAE5 /* POCGuillaumeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F5E3D1C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaumeTests" */;
+			buildPhases = (
+				387F5DF61C24070400B7EAE5 /* Sources */,
+				387F5DF71C24070400B7EAE5 /* Frameworks */,
+				387F5DF81C24070400B7EAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387F5DFC1C24070400B7EAE5 /* PBXTargetDependency */,
+			);
+			name = POCGuillaumeTests;
+			productName = POCGuillaumeTests;
+			productReference = 387F5DFA1C24070400B7EAE5 /* POCGuillaumeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		387F5E041C24070400B7EAE5 /* POCGuillaumeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F5E401C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaumeUITests" */;
+			buildPhases = (
+				387F5E011C24070400B7EAE5 /* Sources */,
+				387F5E021C24070400B7EAE5 /* Frameworks */,
+				387F5E031C24070400B7EAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387F5E071C24070400B7EAE5 /* PBXTargetDependency */,
+			);
+			name = POCGuillaumeUITests;
+			productName = POCGuillaumeUITests;
+			productReference = 387F5E051C24070400B7EAE5 /* POCGuillaumeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		387F5E0D1C24070400B7EAE5 /* POCGuillaume WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F5E361C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaume WatchKit App" */;
+			buildPhases = (
+				387F5E0C1C24070400B7EAE5 /* Resources */,
+				387F5E351C24070400B7EAE5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387F5E201C24070400B7EAE5 /* PBXTargetDependency */,
+			);
+			name = "POCGuillaume WatchKit App";
+			productName = "POCGuillaume WatchKit App";
+			productReference = 387F5E0E1C24070400B7EAE5 /* POCGuillaume WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		387F5E1C1C24070400B7EAE5 /* POCGuillaume WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387F5E321C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaume WatchKit Extension" */;
+			buildPhases = (
+				387F5E191C24070400B7EAE5 /* Sources */,
+				387F5E1A1C24070400B7EAE5 /* Frameworks */,
+				387F5E1B1C24070400B7EAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POCGuillaume WatchKit Extension";
+			productName = "POCGuillaume WatchKit Extension";
+			productReference = 387F5E1D1C24070400B7EAE5 /* POCGuillaume WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387F5DD91C24070400B7EAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SQLI51107;
+				TargetAttributes = {
+					387F5DE01C24070400B7EAE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					387F5DF91C24070400B7EAE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 387F5DE01C24070400B7EAE5;
+					};
+					387F5E041C24070400B7EAE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 387F5DE01C24070400B7EAE5;
+					};
+					387F5E0D1C24070400B7EAE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					387F5E1C1C24070400B7EAE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 387F5DDC1C24070400B7EAE5 /* Build configuration list for PBXProject "POCGuillaume" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387F5DD81C24070400B7EAE5;
+			productRefGroup = 387F5DE21C24070400B7EAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387F5DE01C24070400B7EAE5 /* POCGuillaume */,
+				387F5DF91C24070400B7EAE5 /* POCGuillaumeTests */,
+				387F5E041C24070400B7EAE5 /* POCGuillaumeUITests */,
+				387F5E0D1C24070400B7EAE5 /* POCGuillaume WatchKit App */,
+				387F5E1C1C24070400B7EAE5 /* POCGuillaume WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387F5DDF1C24070400B7EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F5DF41C24070400B7EAE5 /* LaunchScreen.storyboard in Resources */,
+				387F5DF11C24070400B7EAE5 /* Assets.xcassets in Resources */,
+				387F5DEF1C24070400B7EAE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5DF81C24070400B7EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E031C24070400B7EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E0C1C24070400B7EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F5E171C24070400B7EAE5 /* Assets.xcassets in Resources */,
+				387F5E151C24070400B7EAE5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E1B1C24070400B7EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F5E2E1C24070400B7EAE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387F5DDD1C24070400B7EAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F5DEC1C24070400B7EAE5 /* ViewController.m in Sources */,
+				387F5DE91C24070400B7EAE5 /* AppDelegate.m in Sources */,
+				387F5DE61C24070400B7EAE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5DF61C24070400B7EAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F5DFF1C24070400B7EAE5 /* POCGuillaumeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E011C24070400B7EAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F5E0A1C24070400B7EAE5 /* POCGuillaumeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387F5E191C24070400B7EAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387F5E291C24070400B7EAE5 /* ExtensionDelegate.m in Sources */,
+				387F5E261C24070400B7EAE5 /* InterfaceController.m in Sources */,
+				387F5E2C1C24070400B7EAE5 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387F5DFC1C24070400B7EAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387F5DE01C24070400B7EAE5 /* POCGuillaume */;
+			targetProxy = 387F5DFB1C24070400B7EAE5 /* PBXContainerItemProxy */;
+		};
+		387F5E071C24070400B7EAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387F5DE01C24070400B7EAE5 /* POCGuillaume */;
+			targetProxy = 387F5E061C24070400B7EAE5 /* PBXContainerItemProxy */;
+		};
+		387F5E111C24070400B7EAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387F5E0D1C24070400B7EAE5 /* POCGuillaume WatchKit App */;
+			targetProxy = 387F5E101C24070400B7EAE5 /* PBXContainerItemProxy */;
+		};
+		387F5E201C24070400B7EAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387F5E1C1C24070400B7EAE5 /* POCGuillaume WatchKit Extension */;
+			targetProxy = 387F5E1F1C24070400B7EAE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		387F5DED1C24070400B7EAE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387F5DEE1C24070400B7EAE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387F5DF21C24070400B7EAE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387F5DF31C24070400B7EAE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		387F5E131C24070400B7EAE5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387F5E141C24070400B7EAE5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387F5E301C24070400B7EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		387F5E311C24070400B7EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387F5E331C24070400B7EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "POCGuillaume WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaume.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		387F5E341C24070400B7EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "POCGuillaume WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaume.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		387F5E371C24070400B7EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = POCGuillaume_WatchKit_Extension;
+				INFOPLIST_FILE = "POCGuillaume WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaume.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		387F5E381C24070400B7EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = POCGuillaume_WatchKit_Extension;
+				INFOPLIST_FILE = "POCGuillaume WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaume.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		387F5E3B1C24070400B7EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = POCGuillaume/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		387F5E3C1C24070400B7EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = POCGuillaume/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		387F5E3E1C24070400B7EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = POCGuillaumeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCGuillaume.app/POCGuillaume";
+			};
+			name = Debug;
+		};
+		387F5E3F1C24070400B7EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = POCGuillaumeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCGuillaume.app/POCGuillaume";
+			};
+			name = Release;
+		};
+		387F5E411C24070400B7EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = POCGuillaumeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = POCGuillaume;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		387F5E421C24070400B7EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = POCGuillaumeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqli.POCGuillaumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = POCGuillaume;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387F5DDC1C24070400B7EAE5 /* Build configuration list for PBXProject "POCGuillaume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F5E301C24070400B7EAE5 /* Debug */,
+				387F5E311C24070400B7EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387F5E321C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaume WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F5E331C24070400B7EAE5 /* Debug */,
+				387F5E341C24070400B7EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		387F5E361C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaume WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F5E371C24070400B7EAE5 /* Debug */,
+				387F5E381C24070400B7EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		387F5E3A1C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F5E3B1C24070400B7EAE5 /* Debug */,
+				387F5E3C1C24070400B7EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		387F5E3D1C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaumeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F5E3E1C24070400B7EAE5 /* Debug */,
+				387F5E3F1C24070400B7EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		387F5E401C24070400B7EAE5 /* Build configuration list for PBXNativeTarget "POCGuillaumeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F5E411C24070400B7EAE5 /* Debug */,
+				387F5E421C24070400B7EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 387F5DD91C24070400B7EAE5 /* Project object */;
+}
